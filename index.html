@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crash Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .game-container {
+            margin-bottom: 20px;
+        }
+        .game-container h2 {
+            margin-bottom: 10px;
+        }
+        #status {
+            margin-top: 10px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container" id="submarineGame">
+        <h2>Submarine Game</h2>
+        <div id="submarineStatus">
+            Status: Waiting for game status...
+        </div>
+        <div id="submarineMultiplier">
+            Multiplier:
+        </div>
+        <button id="startSubmarineGame">Start Submarine Game</button>
+    </div>
+
+    <div class="game-container" id="balloonGame">
+        <h2>Balloon Game</h2>
+        <div id="balloonStatus">
+            Status: Waiting for game status...
+        </div>
+        <div id="balloonMultiplier">
+            Multiplier:
+        </div>
+        <button id="startBalloonGame">Start Balloon Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
